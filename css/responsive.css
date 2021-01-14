@@ -1,56 +1,82 @@
-@media(max-width: 767px){
-    .navbar-brand img{
-        width: 200px;
-    }
-    /******hero section title***********/
-    .title h2{
-        font-size: 55px;
-        line-height: 54px;
-    }
-    /*******every button*******/
-    a.btn{
-        border-radius: 7px;
-        font-size: 10px;
-        padding: 10px 20px;
-    }
-    /********every section title************/
-    .section-title h2{
-        font-size: 35px;
-        text-align: center;
-        margin-bottom: -10px;
-    }
-    /*******every section card title and footer*******/
-    .card-title{
-        font-size: 20px;
-    }
-    .footer h2{
-        font-size: 30px;
-    }
-    /********Features***********/
-    .feature-contents{
-        display: inline-block;
-        text-align: center;
-        width: 100%;
-    }
-    .feature-img img{
-        margin-right: 0 !important;
-    }
-    /********footer*******/
-    .subscribe-text{
-        text-align: center;
-    }
-    .subscribe-text h2{
-        font-size: 20px;
-    }
-    .email-btn{
-        padding: 12px 12px;
-    }
-    input#email{
-        padding: 11px;
-    }
+@media (max-width: 1024px) {
+  /*******every section card title and footer*******/
+  .card-title {
+    font-size: 20px;
+  }
+  .footer h2 {
+    font-size: 25px;
+  }
+  /*******every button*******/
+  a.btn {
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 8px 14px;
+  }
 }
-@media(max-width: 320px){
-    .navbar-brand img{
-        width: 170px;
-    }
+@media (max-width: 992px) {
+    /********Features***********/
+  .feature-right,
+  .feature-left {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 200px;
+  }
+  /******hero section title***********/
+  .title h2 {
+    font-size: 55px;
+    line-height: 54px;
+  }
+  /*******every button*******/
+  a.btn {
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  /********every section title************/
+  .section-title h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+  /*******every section card title and footer*******/
+  .card-title {
+    font-size: 20px;
+  }
+  .footer h2 {
+    font-size: 25px;
+  }
+  /********Features***********/
+  .feature-contents {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  .feature-img img {
+    margin-right: 0 !important;
+  }
+  .feature-right,
+  .feature-left {
+    width: 100%;
+  }
+  /********footer*******/
+  .subscribe-text {
+    text-align: center;
+  }
+  .subscribe-text h2 {
+    font-size: 20px;
+  }
+  .email-btn {
+    padding: 12px 12px;
+  }
+  input#email {
+    padding: 11px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-brand img {
+    width: 170px;
+  }
 }
