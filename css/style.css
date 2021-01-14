@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif; */
+  /**************************
+      Default css
+  **************************/
+  a.btn {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 15px 38px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+  a.btn:hover {
+    color: #2a1e59;
+  }
+  /********************
+      navbar css
+  *********************/
+  header {
+    background-image: url("../icon/backgroud.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar-brand img {
+    width: 300px;
+  }
+  .navbar-nav li.nav-item a.nav-link {
+    font-size: 16px;
+    color: #3c3c3c;
+    font-weight: 500;
+    margin: 0 15px;
+  }
+  /********************
+      hero section css
+  *********************/
+  .content {
+    padding-top: 70px;
+  }
+  .title h2 {
+    font-size: 80px;
+    font-family: "Bebas Neue", cursive;
+    color: #fabe4c;
+    line-height: 80px;
+  }
+  .title span {
+    color: #2a1e59;
+  }
+  .desc p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .right-content img {
+    width: 500px;
+  }
+  /********************
+      woman, man, baby section css
+  *********************/
+  .section-title h2 {
+    font-size: 48px;
+    color: #363958;
+    font-family: "Bebas Neue", cursive;
+    font-weight: bold;
+  }
+  .woman-jacket,
+  .man-jacket,
+  .baby-jacket {
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .card {
+    border: none !important;
+  }
+  .card-img img {
+    height: 350px;
+    margin: auto;
+    background: #f1f1f1;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .card-title {
+    font-family: "Roboto", sans-serif;
+    color: #363958;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .card-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #3e3e3e;
+    font-weight: normal;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer h2 {
+    font-family: "Roboto", sans-serif;
+    color: #fabe4c;
+    font-size: 36px;
+    font-weight: 900;
+  }
+  /**************************
+      Feature section css
+  ***************************/
+  .feature-img img {
+    width: 78px;
+  }
+  .feature-contents {
+      display: flex;
+      align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+  .feature-content h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #363958;
+    font-weight: bold;
+  }
+  .feature-content p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #3e3e3e;
+  }
+  .blog-wrapper{
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+  /**********************
+      subscribe section
+  ************************/
+  section#subscribe {
+    padding: 20px;
+    background: #fabe4c;
+}
+  .subscribe-text h2 {
+    font-size: 30px;
+    font-family: "Bebas Neue", cursive;
+    color: white;
+  }
+  
+  .subscribe-text span {
+      font-size: 15px;
+    font-family: "Roboto", sans-serif;
+
+  }
+  input#email {
+    padding: 14px;
+    border-radius: 25px 0 0 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+
+}
+.email-btn{
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+    border-radius: 0 25px 25px 0;
+    color: white;
+    font-size: 16px;
+    padding: 15px 38px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-border-radius: 0 25px 25px 0;
+    -moz-border-radius: 0 25px 25px 0;
+    -ms-border-radius: 0 25px 25px 0;
+    -o-border-radius: 0 25px 25px 0;
+}
+.email-btn:hover{
+    color: #2a1e59;
+}
